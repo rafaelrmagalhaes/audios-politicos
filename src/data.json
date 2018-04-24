@@ -1,0 +1,73 @@
+{
+    "person": [
+        {
+            "name": "Bolsonaro",
+            "audio": [
+                {
+                    "name": "Eu sonego tudo que for possível",
+                    "file": "eu_sonego.mp3"
+                },
+                {
+                    "name": "Risada",
+                    "file": "risada_do_bolsonaro.mp3"
+                },
+                {
+                    "name": "Tem que se foder e acabou",
+                    "file": "tem_que_se_foder_e_acabou.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Collor",
+            "audio": [
+                {
+                    "name": "Isso é uma mentira",
+                    "file": "isso_e_uma_mentira.mp3"
+                },
+                {
+                    "name": "Sonho de uma noite de verão",
+                    "file": "sonho_de_uma_noite_de_verao.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Dilma",
+            "audio": [
+                {
+                    "name": "Engasguei comigo mesma",
+                    "file": "engasguei_comigo_mesma.mp3"
+                },
+                {
+                    "name": "Happy Birthday",
+                    "file": "happy_birthday.mp3"
+                },
+                {
+                    "name": "No que se refere",
+                    "file": "no_que_se_refere.mp3"
+                },
+                {
+                    "name": "Quem ganhar ou perder",
+                    "file": "quem_ganhar_ou_perder.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Lula",
+            "audio": [
+                {
+                    "name": "Tchau querida",
+                    "file": "tchau_querida.mp3"
+                }
+            ]
+        },
+        {
+            "name": "Temer",
+            "audio": [
+                {
+                    "name": "Não renunciarei",
+                    "file": "temer/nao_renunciarei.mp3"
+                }
+            ]
+        }
+    ]
+}
