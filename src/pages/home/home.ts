@@ -7,8 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  people = require('../../assets/audios/audios.json');
 
-  }
+  constructor(public navCtrl: NavController) {}
 
 }
