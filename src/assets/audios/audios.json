@@ -1,6 +1,7 @@
 [
     {
         "name": "Bolsonaro",
+        "slug": "bolsonaro",
         "audio": [
             {
                 "name": "Eu sonego tudo que for possível",
@@ -18,6 +19,7 @@
     },
     {
         "name": "Collor",
+        "slug": "collor",
         "audio": [
             {
                 "name": "Isso é uma mentira",
@@ -31,6 +33,7 @@
     },
     {
         "name": "Dilma",
+        "slug": "dilma",
         "audio": [
             {
                 "name": "Engasguei comigo mesma",
@@ -52,6 +55,7 @@
     },
     {
         "name": "Lula",
+        "slug": "lula",
         "audio": [
             {
                 "name": "Tchau querida",
@@ -61,10 +65,11 @@
     },
     {
         "name": "Temer",
+        "slug": "temer",
         "audio": [
             {
                 "name": "Não renunciarei",
-                "file": "temer/nao_renunciarei.mp3"
+                "file": "nao_renunciarei.mp3"
             }
         ]
     }

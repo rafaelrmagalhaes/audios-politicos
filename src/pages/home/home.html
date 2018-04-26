@@ -7,10 +7,10 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
   <ion-list>
     <button ion-item *ngFor="let person of people" icon-start>
-      {{ person.name }}
+      <img src="assets/imgs/{{person.slug}}.jpg" /> {{ person.name }}
     </button>
   </ion-list>
 </ion-content>
