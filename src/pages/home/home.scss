@@ -1,7 +1,31 @@
 page-home {
-    img {
-        border-radius: 50%;
-        width: 70px;
-        height: 70px;
+    .toolbar-ios {
+        ion-title {
+            padding: 0 70px 1px;
+        }
+    }
+
+    ion-label {
+        font-size: 20px;
+
+        img {
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+    }
+}
+
+audio-list {
+    ion-title {
+        img {
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
     }
 }

@@ -3,13 +3,13 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Selecione seu político</ion-title>
+    <ion-title>Selecione o político</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let person of people" icon-start>
+    <button ion-item *ngFor="let person of people" (click)="openAudioList(person.audio, person.name, person.slug)" icon-start>
       <img src="assets/imgs/{{person.slug}}.jpg" /> {{ person.name }}
     </button>
   </ion-list>
