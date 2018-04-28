@@ -4,7 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage, AudioListPage } from '../pages/home/home';
-import { AboutPage } from '../pages/about/about';
+import { SendAudioPage } from '../pages/send-audio/send-audio';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +15,7 @@ import { NativeAudio } from '@ionic-native/native-audio';
     MyApp,
     HomePage,
     AudioListPage,
-    AboutPage
+    SendAudioPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +26,7 @@ import { NativeAudio } from '@ionic-native/native-audio';
     MyApp,
     HomePage,
     AudioListPage,
-    AboutPage
+    SendAudioPage
   ],
   providers: [
     StatusBar,

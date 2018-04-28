@@ -2,13 +2,14 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { NativeAudio } from '@ionic-native/native-audio';
 
+declare var require: any;
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 
 export class HomePage {
-
   people = require('../../assets/audios/audios.json');
 
   constructor(public navCtrl: NavController) {}

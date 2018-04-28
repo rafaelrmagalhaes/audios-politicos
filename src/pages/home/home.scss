@@ -28,4 +28,17 @@ audio-list {
             margin-right: 5px;
         }
     }
+
+    ion-label {
+        ion-icon {
+            border: 1px solid #000;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 18px;
+            font-size: 15px;
+            margin-right: 3px;
+        }
+    }
 }
