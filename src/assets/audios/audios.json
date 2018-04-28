@@ -54,6 +54,23 @@
         ]
     },
     {
+        "name": "Eduardo Cunha",
+        "slug": "eduardo-cunha",
+        "audio": [
+            {
+                "name": "Que Deus tenha misericórdia dessa nação",
+                "file": "que_deus_tenha_misericordia.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Jean Wyllys",
+        "slug": "jean-wyllys",
+        "audio": [
+           
+        ]
+    },
+    {
         "name": "Lula",
         "slug": "lula",
         "audio": [
@@ -61,6 +78,13 @@
                 "name": "Tchau querida",
                 "file": "tchau_querida.mp3"
             }
+        ]
+    },
+    {
+        "name": "Maria do Rosário",
+        "slug": "maria-do-rosario",
+        "audio": [
+           
         ]
     },
     {
