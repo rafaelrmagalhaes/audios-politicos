@@ -4,16 +4,30 @@
         "slug": "bolsonaro",
         "audio": [
             {
+                "name": "Dá que eu te dou outra",
+                "file": "da-que-eu-te-dou-outra.mp3"
+            },
+            {
                 "name": "Eu sonego tudo que for possível",
-                "file": "eu_sonego.mp3"
+                "file": "eu-sonego.mp3"
             },
             {
                 "name": "Risada",
-                "file": "risada_do_bolsonaro.mp3"
+                "file": "risada.mp3"
             },
             {
                 "name": "Tem que se foder e acabou",
-                "file": "tem_que_se_foder_e_acabou.mp3"
+                "file": "tem-que-se-foder-e-acabou.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Ciro Gomes",
+        "slug": "ciro-gomes",
+        "audio": [
+            {
+                "name": "526 terabytes de encryption",
+                "file": "526-terabytes-de-encryption.mp3"
             }
         ]
     },
@@ -23,11 +37,11 @@
         "audio": [
             {
                 "name": "Isso é uma mentira",
-                "file": "isso_e_uma_mentira.mp3"
+                "file": "isso-e-uma-mentira.mp3"
             },
             {
                 "name": "Sonho de uma noite de verão",
-                "file": "sonho_de_uma_noite_de_verao.mp3"
+                "file": "sonho-de-uma-noite-de-verao.mp3"
             }
         ]
     },
@@ -37,19 +51,19 @@
         "audio": [
             {
                 "name": "Engasguei comigo mesma",
-                "file": "engasguei_comigo_mesma.mp3"
+                "file": "engasguei-comigo-mesma.mp3"
             },
             {
                 "name": "Happy Birthday",
-                "file": "happy_birthday.mp3"
+                "file": "happy-birthday.mp3"
             },
             {
                 "name": "No que se refere",
-                "file": "no_que_se_refere.mp3"
+                "file": "no-que-se-refere.mp3"
             },
             {
                 "name": "Quem ganhar ou perder",
-                "file": "quem_ganhar_ou_perder.mp3"
+                "file": "quem-ganhar-ou-perder.mp3"
             }
         ]
     },
@@ -59,7 +73,7 @@
         "audio": [
             {
                 "name": "Que Deus tenha misericórdia dessa nação",
-                "file": "que_deus_tenha_misericordia.mp3"
+                "file": "que-deus-tenha-misericordia.mp3"
             }
         ]
     },
@@ -67,7 +81,10 @@
         "name": "Jean Wyllys",
         "slug": "jean-wyllys",
         "audio": [
-           
+            {
+                "name": "Ele me chamou de cu ambulante",
+                "file": "ele-me-chamou-de-cu-ambulante.mp3"
+            }
         ]
     },
     {
@@ -76,7 +93,11 @@
         "audio": [
             {
                 "name": "Tchau querida",
-                "file": "tchau_querida.mp3"
+                "file": "tchau-querida.mp3"
+            },
+            {
+                "name": "Viva alma mais honesta do que eu",
+                "file": "viva-alma-mais-honesta-do-que-eu.mp3"
             }
         ]
     },
@@ -84,7 +105,10 @@
         "name": "Maria do Rosário",
         "slug": "maria-do-rosario",
         "audio": [
-           
+            {
+                "name": "Mas o que é isso?",
+                "file": "mas-o-que-e-isso.mp3"
+            }
         ]
     },
     {
@@ -93,7 +117,7 @@
         "audio": [
             {
                 "name": "Não renunciarei",
-                "file": "nao_renunciarei.mp3"
+                "file": "nao-renunciarei.mp3"
             }
         ]
     }
