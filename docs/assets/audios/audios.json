@@ -1,5 +1,15 @@
 [
     {
+        "name": "Barroso",
+        "slug": "barroso",
+        "audio": [
+            {
+                "name": "Pitadas de psicopatia",
+                "file": "pitadas-de-psicopatia.mp3"
+            }
+        ]
+    },
+    {
         "name": "Bolsonaro",
         "slug": "bolsonaro",
         "audio": [
@@ -10,6 +20,14 @@
             {
                 "name": "Eu sonego tudo que for possível",
                 "file": "eu-sonego.mp3"
+            },
+            {
+                "name": "Eu sou favorável à tortura, tu sabe disso",
+                "file": "eu-sou-favoravel-a-tortura.mp3"
+            },
+            {
+                "name": "Po, num to de novo",
+                "file": "po-num-to-de-novo.mp3"
             },
             {
                 "name": "Risada",
@@ -28,6 +46,14 @@
             {
                 "name": "526 terabytes de encryption",
                 "file": "526-terabytes-de-encryption.mp3"
+            },
+            {
+                "name": "Isso dá bilhão?",
+                "file": "isso-da-bilhao.mp3"
+            },
+            {
+                "name": "Vou receber a turma dele na bala",
+                "file": "vou-receber-na-bala.mp3"
             }
         ]
     },
@@ -50,12 +76,36 @@
         "slug": "dilma",
         "audio": [
             {
+                "name": "Bessias",
+                "file": "bessias.mp3"
+            },
+            {
+                "name": "Dobrar a meta",
+                "file": "dobrar-a-meta.mp3"
+            },
+            {
                 "name": "Engasguei comigo mesma",
                 "file": "engasguei-comigo-mesma.mp3"
             },
             {
+                "name": "Estocar vento",
+                "file": "estocar-vento.mp3"
+            },
+            {
+                "name": "Figura oculta que é um cachorro atrás",
+                "file": "figura-oculta.mp3"
+            },
+            {
                 "name": "Happy Birthday",
                 "file": "happy-birthday.mp3"
+            },
+            {
+                "name": "Índios morriam por falta de assistência técnica",
+                "file": "indios-morriam-por-falta-de-assistencia-tecnica.mp3"
+            },
+            {
+                "name": "Mulheres Sapiens",
+                "file": "mulheres-sapiens.mp3"
             },
             {
                 "name": "No que se refere",
@@ -64,6 +114,10 @@
             {
                 "name": "Quem ganhar ou perder",
                 "file": "quem-ganhar-ou-perder.mp3"
+            },
+            {
+                "name": "Saudando a mandioca",
+                "file": "saudando-a-mandioca.mp3"
             }
         ]
     },
@@ -88,9 +142,27 @@
         ]
     },
     {
+        "name": "Levy Fidelix",
+        "slug": "levy-fidelix",
+        "audio": [
+            {
+                "name": "Aparelho excretor não reproduz",
+                "file": "aparelho-excretor-nao-reproduz.mp3"
+            },
+            {
+                "name": "Dois iguais não fazem filho",
+                "file": "dois-iguais-nao-fazem-filho.mp3"
+            }
+        ]
+    },
+    {
         "name": "Lula",
         "slug": "lula",
         "audio": [
+            {
+                "name": "Acusado de suicídio",
+                "file": "acusado-de-suicidio.mp3"
+            },
             {
                 "name": "Tchau querida",
                 "file": "tchau-querida.mp3"
@@ -118,6 +190,16 @@
             {
                 "name": "Não renunciarei",
                 "file": "nao-renunciarei.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Wladimir Costa",
+        "slug": "wladimir-costa",
+        "audio": [
+            {
+                "name": "Minha mãe negra Lucimar",
+                "file": "minha-mae-negra-lucimar.mp3"
             }
         ]
     }
