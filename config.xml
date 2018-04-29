@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="audios.politicos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>audios-politicos</name>
     <description>App com os áudios mais marcantes dos nossos queridos políticos.</description>
-    <author email="rafaremagalhaes@gmail.com" href="mailt:rafaremagalhaes@gmail.com">Rafael Magalhães</author>
+    <author email="rafaremagalhaes@gmail.com" href="mailto:rafaremagalhaes@gmail.com">Rafael Magalhães</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -85,4 +85,5 @@
     <plugin name="cordova-plugin-nativeaudio" spec="~3.0.9" />
     <allow-navigation href="http://192.168.2.9:8100" />
     <engine name="browser" spec="5.0.3" />
+    <engine name="android" spec="7.0.0" />
 </widget>
