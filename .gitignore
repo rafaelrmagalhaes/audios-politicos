@@ -24,10 +24,10 @@ tmp/
 temp/
 hooks/
 platforms/
-/plugins/
-/plugins/android.json
-/plugins/ios.json
-/www/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
 $RECYCLE.BIN/
 
 .DS_Store
