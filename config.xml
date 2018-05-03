@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="audios.politicos" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>audios-politicos</name>
+<widget id="audios.politicos" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Audios Políticos</name>
     <description>App com os áudios mais marcantes dos nossos queridos políticos.</description>
     <author email="rafaremagalhaes@gmail.com" href="mailto:rafaremagalhaes@gmail.com">Rafael Magalhães</author>
     <content src="index.html" />
