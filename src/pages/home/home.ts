@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams, Platform, AlertController } from 'ionic-angular';
 import { NativeAudio } from '@ionic-native/native-audio';
 
 declare var require: any;
@@ -12,7 +12,32 @@ declare var require: any;
 export class HomePage {
   people = require('../../assets/audios/audios.json');
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController, public plt: Platform, private alertCtrl: AlertController) {}
+
+  ionViewDidLoad() {
+    if (this.plt.is('android')) {
+      let alert = this.alertCtrl.create({
+        title: 'Baixe o nosso app para Android e ouça os áudios offline!',
+        message: 'Deseja baixar o app?',
+        buttons: [
+          {
+            text: 'Não',
+            role: 'cancel',
+            handler: () => {
+              console.log('Cancel clicked');
+            }
+          },
+          {
+            text: 'Sim',
+            handler: () => {
+              window.open('https://play.google.com/store/apps/details?id=audios.politicos');
+            }
+          }
+        ]
+      });
+      alert.present();
+    }
+  }
 
   openAudioList(audioList, name, slug) {
     this.navCtrl.push(AudioListPage, { audioList, name, slug });
