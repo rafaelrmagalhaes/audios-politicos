@@ -5,6 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { SendAudioPage } from '../pages/send-audio/send-audio';
+import { SharePage } from '../pages/share/share';
 
 @Component({
   templateUrl: 'app.html'
@@ -22,7 +23,8 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Áudios', component: HomePage },
-      { title: 'Envie seu áudio', component: SendAudioPage }
+      { title: 'Envie seu áudio', component: SendAudioPage },
+      { title: 'Compartilhe o App!', component: SharePage }
     ];
 
   }
