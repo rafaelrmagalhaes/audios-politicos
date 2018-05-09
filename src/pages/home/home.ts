@@ -49,15 +49,16 @@ export class AudioListPage {
   }
 
   playAudio(audioName, audioFile){
-    // this.destroyAudios();
-    // this.audiosPlayed.push(name);
-    // this.nativeAudio.play(name, () => this.audiosPlayed = []);
-window.console.log(`assets/audios/${this.slug}/${audioFile}`);
-    this.socialSharing.share(audioName, this.name, `assets/audios/${this.slug}/${audioFile}`).then(() => {
+    this.destroyAudios();
+    this.audiosPlayed.push(name);
+    this.nativeAudio.play(name, () => this.audiosPlayed = []);
+  }
+
+  shareAudio(audioName, audioFile) {
+    this.socialSharing.share(audioName, this.name, `www/assets/audios/${this.slug}/${audioFile}`).then(() => {
     }).catch((e) => {
       console.log(e);
     });
-    
   }
 
   destroyAudios() {

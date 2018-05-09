@@ -7,10 +7,13 @@ import { SocialSharing } from '@ionic-native/social-sharing';
 })
 export class SharePage {
     constructor(private socialSharing: SocialSharing) {
+      this.shareApp();
+    }
 
-        this.socialSharing.share('App com os áudios mais marcantes dos nossos queridos políticos.', 'Áudios Políticos').then(() => {
-          }).catch((e) => {
-            console.log(e);
-          });
+    shareApp(){
+      this.socialSharing.share('App com os áudios mais marcantes dos nossos queridos políticos.', 'Áudios Políticos', null, 'http://audiospoliticos.com.br').then(() => {
+      }).catch((e) => {
+        console.log(e);
+      });
     }
 }
