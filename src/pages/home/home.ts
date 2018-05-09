@@ -48,10 +48,10 @@ export class AudioListPage {
     }
   }
 
-  playAudio(audioName, audioFile){
+  playAudio(audioName){
     this.destroyAudios();
-    this.audiosPlayed.push(name);
-    this.nativeAudio.play(name, () => this.audiosPlayed = []);
+    this.audiosPlayed.push(audioName);
+    this.nativeAudio.play(audioName, () => this.audiosPlayed = []);
   }
 
   shareAudio(audioName, audioFile) {
