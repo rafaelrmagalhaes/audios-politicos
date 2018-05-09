@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 declare var require: any;
 
@@ -29,7 +30,7 @@ export class AudioListPage {
   slug;
   audiosPlayed = [];
 
-  constructor(params: NavParams, private nativeAudio: NativeAudio) {
+  constructor(params: NavParams, private nativeAudio: NativeAudio, private socialSharing: SocialSharing) {
     this.audioList = params.data.audioList;
     this.name = params.data.name;
     this.slug = params.data.slug;
@@ -47,10 +48,16 @@ export class AudioListPage {
     }
   }
 
-  playAudio(name){
-    this.destroyAudios();
-    this.audiosPlayed.push(name);
-    this.nativeAudio.play(name, () => this.audiosPlayed = []);
+  playAudio(audioName, audioFile){
+    // this.destroyAudios();
+    // this.audiosPlayed.push(name);
+    // this.nativeAudio.play(name, () => this.audiosPlayed = []);
+window.console.log(`assets/audios/${this.slug}/${audioFile}`);
+    this.socialSharing.share(audioName, this.name, `assets/audios/${this.slug}/${audioFile}`).then(() => {
+    }).catch((e) => {
+      console.log(e);
+    });
+    
   }
 
   destroyAudios() {
