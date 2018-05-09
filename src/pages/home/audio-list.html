@@ -9,7 +9,7 @@
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let audio of audioList" (click)="playAudio(audio.name, audio.file)">
+    <button ion-item *ngFor="let audio of audioList" (click)="playAudio(audio.name)">
       <ion-icon name="play"></ion-icon> {{ audio.name }}
     </button>
   </ion-list>

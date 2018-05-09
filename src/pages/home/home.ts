@@ -35,22 +35,22 @@ export class AudioListPage {
     this.slug = params.data.slug;
   }
 
+  ionViewWillEnter() {
+    for(let i = 0; i <= this.audioList.length - 1; i++){
+      this.nativeAudio.preloadSimple(this.audioList[i].name, `assets/audios/${this.slug}/${this.audioList[i].file}`);
+    }
+  }
+
   ionViewWillLeave() {
-    this.destroyAudios();
+    for(let i = 0; i <= this.audioList.length - 1; i++){
+      this.nativeAudio.unload(this.audioList[i].name);
+    }
   }
 
-  onSuccessPreloading = (name) => {
-    this.nativeAudio.play(name, () => this.audiosPlayed = []);
-  }
-
-  onError = (error) => {
-    console.log('erro: ', error);
-  }
-
-  playAudio(name, audio){
+  playAudio(name){
     this.destroyAudios();
     this.audiosPlayed.push(name);
-    this.nativeAudio.preloadSimple(name, `assets/audios/${this.slug}/${audio}`).then(() => this.onSuccessPreloading(name), this.onError);
+    this.nativeAudio.play(name, () => this.audiosPlayed = []);
   }
 
   destroyAudios() {
