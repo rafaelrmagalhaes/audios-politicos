@@ -55,7 +55,7 @@ export class AudioListPage {
   }
 
   shareAudio(audioName, audioFile) {
-    this.socialSharing.share(audioName, this.name, `www/assets/audios/${this.slug}/${audioFile}`).then(() => {
+    this.socialSharing.share(audioName, this.name, `http://www.calprog.com/Sounds/Sample_Spiraling_at_Steamers.mp3`).then(() => {
     }).catch((e) => {
       console.log(e);
     });
