@@ -10,7 +10,6 @@ import { SharePage } from '../pages/share/share';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
-import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
@@ -36,7 +35,6 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     StatusBar,
     SplashScreen,
     NativeAudio,
-    SocialSharing,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
