@@ -33,16 +33,30 @@ audio-list {
         }
     }
 
-    ion-label {
-        ion-icon {
-            border: 1px solid #000;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            line-height: 18px;
-            font-size: 15px;
-            margin-right: 3px;
+    ion-item {
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #353535;
+            font-size: 16px;
+            white-space: normal;
+        }
+
+        button {
+            background: none;
+            padding: 5px;
+            margin-right: 10px;
+
+            ion-icon {
+                border: 2px solid #353535;
+                border-radius: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                line-height: 25px;
+                font-size: 20px;
+                color: #353535;
+            }
         }
     }
 }

@@ -5,17 +5,20 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage, AudioListPage } from '../pages/home/home';
 import { SendAudioPage } from '../pages/send-audio/send-audio';
+import { SharePage } from '../pages/share/share';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AudioListPage,
-    SendAudioPage
+    SendAudioPage,
+    SharePage
   ],
   imports: [
     BrowserModule,
@@ -26,12 +29,14 @@ import { NativeAudio } from '@ionic-native/native-audio';
     MyApp,
     HomePage,
     AudioListPage,
-    SendAudioPage
+    SendAudioPage,
+    SharePage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     NativeAudio,
+    SocialSharing,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

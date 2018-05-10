@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, Platform, AlertController } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 import { NativeAudio } from '@ionic-native/native-audio';
+import { SocialSharing } from '@ionic-native/social-sharing';
 
 declare var require: any;
 
@@ -12,32 +13,7 @@ declare var require: any;
 export class HomePage {
   people = require('../../assets/audios/audios.json');
 
-  constructor(public navCtrl: NavController, public plt: Platform, private alertCtrl: AlertController) {}
-
-  ionViewDidLoad() {
-    if (this.plt.is('android')) {
-      let alert = this.alertCtrl.create({
-        title: 'Baixe o nosso app para Android e ouça os áudios offline!',
-        message: 'Deseja baixar o app?',
-        buttons: [
-          {
-            text: 'Não',
-            role: 'cancel',
-            handler: () => {
-              console.log('Cancel clicked');
-            }
-          },
-          {
-            text: 'Sim',
-            handler: () => {
-              window.open('https://play.google.com/store/apps/details?id=audios.politicos');
-            }
-          }
-        ]
-      });
-      alert.present();
-    }
-  }
+  constructor(public navCtrl: NavController) {}
 
   openAudioList(audioList, name, slug) {
     this.navCtrl.push(AudioListPage, { audioList, name, slug });
@@ -54,28 +30,35 @@ export class AudioListPage {
   slug;
   audiosPlayed = [];
 
-  constructor(params: NavParams, private nativeAudio: NativeAudio) {
+  constructor(params: NavParams, private nativeAudio: NativeAudio, private socialSharing: SocialSharing) {
     this.audioList = params.data.audioList;
     this.name = params.data.name;
     this.slug = params.data.slug;
   }
 
+  ionViewWillEnter() {
+    for(let i = 0; i <= this.audioList.length - 1; i++){
+      this.nativeAudio.preloadSimple(this.audioList[i].name, `assets/audios/${this.slug}/${this.audioList[i].file}`);
+    }
+  }
+
   ionViewWillLeave() {
+    for(let i = 0; i <= this.audioList.length - 1; i++){
+      this.nativeAudio.unload(this.audioList[i].name);
+    }
+  }
+
+  playAudio(audioName){
     this.destroyAudios();
+    this.audiosPlayed.push(audioName);
+    this.nativeAudio.play(audioName, () => this.audiosPlayed = []);
   }
 
-  onSuccessPreloading = (name) => {
-    this.nativeAudio.play(name, () => this.audiosPlayed = []);
-  }
-
-  onError = (error) => {
-    console.log('erro: ', error);
-  }
-
-  playAudio(name, audio){
-    this.destroyAudios();
-    this.audiosPlayed.push(name);
-    this.nativeAudio.preloadSimple(name, `assets/audios/${this.slug}/${audio}`).then(() => this.onSuccessPreloading(name), this.onError);
+  shareAudio(audioName, audioFile) {
+    this.socialSharing.share(audioName, this.name, `www/assets/audios/${this.slug}/${audioFile}`).then(() => {
+    }).catch((e) => {
+      console.log(e);
+    });
   }
 
   destroyAudios() {

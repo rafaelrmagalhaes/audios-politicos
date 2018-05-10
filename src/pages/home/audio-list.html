@@ -9,8 +9,13 @@
 
 <ion-content>
   <ion-list>
-    <button ion-item *ngFor="let audio of audioList" (click)="playAudio(audio.name, audio.file)">
-      <ion-icon name="play"></ion-icon> {{ audio.name }}
-    </button>
+    <ion-item *ngFor="let audio of audioList">
+        <label>{{ audio.name }}</label>
+        <button (click)="playAudio(audio.name)"><ion-icon name="play"></ion-icon></button>
+        
+        <button (click)="shareAudio(audio.name, audio.file)"><ion-icon name="share-alt"></ion-icon></button>
+    </ion-item>
+    
+      
   </ion-list>
 </ion-content>

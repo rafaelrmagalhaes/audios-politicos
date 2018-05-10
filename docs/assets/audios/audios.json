@@ -1,5 +1,15 @@
 [
     {
+        "name": "Aécio Neves",
+        "slug": "aecio-neves",
+        "audio": [
+            {
+                "name": "Não seja leviana",
+                "file": "nao-seja-leviana.mp3"
+            }
+        ]
+    },
+    {
         "name": "Barroso",
         "slug": "barroso",
         "audio": [
@@ -22,6 +32,10 @@
                 "file": "da-que-eu-te-dou-outra.mp3"
             },
             {
+                "name": "É só você não estuprar, não sequestrar...",
+                "file": "e-so-voce-nao-estuprar.mp3"
+            },
+            {
                 "name": "Eu sonego tudo que for possível",
                 "file": "eu-sonego.mp3"
             },
@@ -42,8 +56,22 @@
                 "file": "tem-que-se-foder-e-acabou.mp3"
             },
             {
+                "name": "Única coisa boa do Maranhão",
+                "file": "unica-coisa-boa-do-maranhao.mp3"
+            },
+            {
                 "name": "Vai queimar tua rosquinha",
                 "file": "vai-queimar-tua-rosquinha.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Brizola",
+        "slug": "brizola",
+        "audio": [
+            {
+                "name": "Filhotes da ditadura",
+                "file": "filhotes-da-ditadura.mp3"
             }
         ]
     },
@@ -54,6 +82,10 @@
             {
                 "name": "526 terabytes de encryption",
                 "file": "526-terabytes-de-encryption.mp3"
+            },
+            {
+                "name": "A senhora chamou a Beyoncé",
+                "file": "a-senhora-chamou-a-beyonce.mp3"
             },
             {
                 "name": "Isso dá bilhão?",
@@ -78,6 +110,10 @@
                 "file": "isso-e-uma-mentira.mp3"
             },
             {
+                "name": "São palavras que quero que as engula",
+                "file": "sao-palavras-que-quero-que-as-engula.mp3"
+            },
+            {
                 "name": "Sonho de uma noite de verão",
                 "file": "sonho-de-uma-noite-de-verao.mp3"
             }
@@ -90,6 +126,10 @@
             {
                 "name": "Bessias",
                 "file": "bessias.mp3"
+            },
+            {
+                "name": "Bom dia ou boa tarde",
+                "file": "bom-dia-ou-boa-tarde.mp3"
             },
             {
                 "name": "Dobrar a meta",
@@ -138,8 +178,22 @@
         "slug": "eduardo-cunha",
         "audio": [
             {
+                "name": "Como vota deputado?",
+                "file": "como-vota-deputado.mp3"
+            },
+            {
                 "name": "Que Deus tenha misericórdia dessa nação",
                 "file": "que-deus-tenha-misericordia.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Eduardo Paes",
+        "slug": "eduardo-paes",
+        "audio": [
+            {
+                "name": "Maricá",
+                "file": "marica.mp3"
             }
         ]
     },
@@ -180,6 +234,16 @@
             {
                 "name": "Come todo mundo",
                 "file": "come-todo-mundo.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Kassab",
+        "slug": "kassab",
+        "audio": [
+            {
+                "name": "Vagabundo",
+                "file": "vagabundo.mp3"
             }
         ]
     },
@@ -254,8 +318,16 @@
         "slug": "paulo-maluf",
         "audio": [
             {
+                "name": "Estupra mas não mata",
+                "file": "estupra-mas-nao-mata.mp3"
+            },
+            {
                 "name": "Se corrupção existe, é da senhora sua mãe",
                 "file": "corrupcao-sua-mae.mp3"
+            },
+            {
+                "name": "Se o Pitta não for um grande prefeito, nunca mais vote em mim",
+                "file": "pitta-grande-prefeito.mp3"
             }
         ]
     },
