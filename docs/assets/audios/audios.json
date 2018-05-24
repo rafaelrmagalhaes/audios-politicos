@@ -44,6 +44,10 @@
                 "file": "eu-sou-favoravel-a-tortura.mp3"
             },
             {
+                "name": "O bigodudo ou o careca",
+                "file": "o-bigodudo-ou-o-careca.mp3"
+            },
+            {
                 "name": "Po, num to de novo",
                 "file": "po-num-to-de-novo.mp3"
             },
@@ -62,6 +66,10 @@
             {
                 "name": "Vai queimar tua rosquinha",
                 "file": "vai-queimar-tua-rosquinha.mp3"
+            },
+            {
+                "name": "Vou votar no Lula",
+                "file": "vou-votar-no-lula.mp3"
             }
         ]
     },
@@ -144,6 +152,10 @@
                 "file": "estocar-vento.mp3"
             },
             {
+                "name": "Eu podia",
+                "file": "eu-podia.mp3"
+            },
+            {
                 "name": "Figura oculta que é um cachorro atrás",
                 "file": "figura-oculta.mp3"
             },
@@ -156,12 +168,20 @@
                 "file": "indios-morriam-por-falta-de-assistencia-tecnica.mp3"
             },
             {
+                "name": "Melhor prefeito das galáxias",
+                "file": "melhor-prefeito-das-galaxias.mp3"
+            },
+            {
                 "name": "Mulheres Sapiens",
                 "file": "mulheres-sapiens.mp3"
             },
             {
                 "name": "No que se refere",
                 "file": "no-que-se-refere.mp3"
+            },
+            {
+                "name": "O meio ambiente é uma ameaça",
+                "file": "o-meio-ambiente-e-uma-ameaca.mp3"
             },
             {
                 "name": "Quem ganhar ou perder",
@@ -192,8 +212,16 @@
         "slug": "eduardo-paes",
         "audio": [
             {
+                "name": "Faz muito sexo aqui, Rita",
+                "file": "faz-muito-sexo-aqui-rita.mp3"
+            },
+            {
                 "name": "Maricá",
                 "file": "marica.mp3"
+            },
+            {
+                "name": "Vai trepar muito nesse quartinho aqui",
+                "file": "vai-trepar-muito-nesse-quartinho-aqui.mp3"
             }
         ]
     },
@@ -202,8 +230,22 @@
         "slug": "eneas",
         "audio": [
             {
+                "name": "Falando inglês",
+                "file": "falando-ingles.mp3"
+            },
+            {
                 "name": "Meu nome é Enéas",
                 "file": "meu-nome-e-eneas.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Eymael",
+        "slug": "eymael",
+        "audio": [
+            {
+                "name": "Ey-ey-ey-mael",
+                "file": "ey-ey-ey-mael.mp3"
             }
         ]
     },
@@ -218,12 +260,32 @@
         ]
     },
     {
+        "name": "Jandira Feghali",
+        "slug": "jandira-feghali",
+        "audio": [
+            {
+                "name": "Tentou ajudar o candidato",
+                "file": "tentou-ajudar-o-candidato.mp3"
+            }
+        ]
+    },
+    {
         "name": "Jean Wyllys",
         "slug": "jean-wyllys",
         "audio": [
             {
                 "name": "Ele me chamou de cu ambulante",
                 "file": "ele-me-chamou-de-cu-ambulante.mp3"
+            }
+        ]
+    },
+    {
+        "name": "Joaquim Barbosa",
+        "slug": "joaquim-barbosa",
+        "audio": [
+            {
+                "name": "Capangas do Mato Grosso",
+                "file": "capangas-do-mato-grosso.mp3"
             }
         ]
     },
@@ -268,6 +330,10 @@
             {
                 "name": "Acusado de suicídio",
                 "file": "acusado-de-suicidio.mp3"
+            },
+            {
+                "name": "Grelo duro",
+                "file": "grelo-duro.mp3"
             },
             {
                 "name": "Pelotas é exportadora de viado",
@@ -345,6 +411,10 @@
         "name": "Temer",
         "slug": "temer",
         "audio": [
+            {
+                "name": "Acreditamos no poder do diabo",
+                "file": "acreditamos-no-poder-do-diabo.mp3"
+            },
             {
                 "name": "Não renunciarei",
                 "file": "nao-renunciarei.mp3"
