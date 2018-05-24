@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { NativeAudio } from '@ionic-native/native-audio';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free';
 
 declare var require: any;
 
@@ -13,7 +14,16 @@ declare var require: any;
 export class HomePage {
   people = require('../../assets/audios/audios.json');
 
-  constructor(public navCtrl: NavController) {}
+  constructor(public navCtrl: NavController, private admobFree: AdMobFree) {
+    const bannerConfig: AdMobFreeBannerConfig = {
+      id: 'ca-app-pub-6062116325264267/8307310253',
+      isTesting: false,
+      autoShow: true
+     };
+     this.admobFree.banner.config(bannerConfig);
+     
+     this.admobFree.banner.prepare();
+  }
 
   openAudioList(audioList, name, slug) {
     this.navCtrl.push(AudioListPage, { audioList, name, slug });

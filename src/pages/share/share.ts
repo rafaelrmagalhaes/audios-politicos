@@ -11,7 +11,7 @@ export class SharePage {
     }
 
     shareApp(){
-      this.socialSharing.share('App com os áudios mais marcantes dos nossos queridos políticos.', 'Áudios Políticos', null, 'http://audiospoliticos.com.br').then(() => {
+      this.socialSharing.share('App com os áudios mais marcantes dos nossos queridos políticos.', 'Áudios Políticos', 'www/assets/imgs/icon.png', 'http://audiospoliticos.com.br').then(() => {
       }).catch((e) => {
         console.log(e);
       });

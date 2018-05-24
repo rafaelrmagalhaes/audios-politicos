@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { NativeAudio } from '@ionic-native/native-audio';
 import { SocialSharing } from '@ionic-native/social-sharing';
+import { AdMobFree } from '@ionic-native/admob-free';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { SocialSharing } from '@ionic-native/social-sharing';
     SplashScreen,
     NativeAudio,
     SocialSharing,
+    AdMobFree,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

@@ -1,8 +1,8 @@
 {
   "name": "audios-politicos",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "version": "1.4.0",
+  "author": "Rafael Magalhães",
+  "homepage": "http://rafaelmagalhaes.com.br/",
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
@@ -21,6 +21,7 @@
     "@angular/http": "5.2.10",
     "@angular/platform-browser": "5.2.10",
     "@angular/platform-browser-dynamic": "5.2.10",
+    "@ionic-native/admob-free": "^4.7.0",
     "@ionic-native/core": "4.7.0",
     "@ionic-native/native-audio": "^4.7.0",
     "@ionic-native/social-sharing": "^4.7.0",
@@ -48,7 +49,7 @@
     "@types/node": "^9.6.6",
     "typescript": "~2.6.2"
   },
-  "description": "An Ionic project",
+  "description": "App com os áudios mais marcantes dos nossos queridos políticos.",
   "cordova": {
     "plugins": {
       "cordova-plugin-whitelist": {},
@@ -58,7 +59,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-nativeaudio": {},
       "cordova-plugin-x-socialsharing": {},
-      "cordova-plugin-statusbar": {}
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-admob-free": {}
     },
     "platforms": [
       "android"
