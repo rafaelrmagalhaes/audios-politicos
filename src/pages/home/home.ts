@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { NativeAudio } from '@ionic-native/native-audio';
+import { StreamingMedia, StreamingAudioOptions } from '@ionic-native/streaming-media';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free';
 
 declare var require: any;
 
-const baseUrl = 'http://audiospoliticos.com.br/assets/audios';
+const baseUrl = 'http://audiospoliticos.com.br/assets';
 
 @Component({
   selector: 'page-home',
@@ -41,45 +41,26 @@ export class AudioListPage {
   audioList;
   name;
   slug;
-  audiosPlayed = [];
 
-  constructor(params: NavParams, private nativeAudio: NativeAudio, private socialSharing: SocialSharing) {
+  constructor(params: NavParams, private streamingMedia: StreamingMedia, private socialSharing: SocialSharing) {
     this.audioList = params.data.audioList;
     this.name = params.data.name;
     this.slug = params.data.slug;
   }
 
-  ionViewWillEnter() {
-    for(let i = 0; i <= this.audioList.length - 1; i++){
-      this.nativeAudio.preloadSimple(this.audioList[i].name, `assets/audios/${this.slug}/${this.audioList[i].file}`);
-    }
-  }
+  playAudio(audioFile){
+    let options: StreamingAudioOptions = {
+      bgColor: '#000000',
+      bgImage: `${baseUrl}/imgs/${this.slug}.jpg`
+    };
 
-  ionViewWillLeave() {
-    for(let i = 0; i <= this.audioList.length - 1; i++){
-      this.nativeAudio.unload(this.audioList[i].name);
-    }
-  }
-
-  playAudio(audioName){
-    this.destroyAudios();
-    this.audiosPlayed.push(audioName);
-    this.nativeAudio.play(audioName, () => this.audiosPlayed = []);
+    this.streamingMedia.playAudio(`${baseUrl}/audios/${this.slug}/${audioFile}`, options);
   }
 
   shareAudio(audioName, audioFile) {
-    console.log(`${baseUrl}/${this.slug}/${audioFile}`);
-    this.socialSharing.share(audioName, this.name, `${baseUrl}/${this.slug}/${audioFile}`).then(() => {
+    this.socialSharing.share(audioName, this.name, `${baseUrl}/audios/${this.slug}/${audioFile}`).then(() => {
     }).catch((e) => {
       console.log(e);
     });
-  }
-
-  destroyAudios() {
-    if(this.audiosPlayed.length > 0){
-      this.nativeAudio.stop(this.audiosPlayed[0]);
-    }
-
-    this.audiosPlayed = [];
   }
 }

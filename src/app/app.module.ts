@@ -9,7 +9,7 @@ import { SharePage } from '../pages/share/share';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { NativeAudio } from '@ionic-native/native-audio';
+import { StreamingMedia } from '@ionic-native/streaming-media';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { AdMobFree } from '@ionic-native/admob-free';
 
@@ -36,7 +36,7 @@ import { AdMobFree } from '@ionic-native/admob-free';
   providers: [
     StatusBar,
     SplashScreen,
-    NativeAudio,
+    StreamingMedia,
     SocialSharing,
     AdMobFree,
     {provide: ErrorHandler, useClass: IonicErrorHandler}

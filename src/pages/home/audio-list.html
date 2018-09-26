@@ -3,7 +3,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title><img src="assets/imgs/{{slug}}.jpg" /> {{ name }}</ion-title>
+    <ion-title><img src="http://audiospoliticos.com.br/assets/imgs/{{slug}}.jpg" /> {{ name }}</ion-title>
   </ion-navbar>
 </ion-header>
 
@@ -11,7 +11,7 @@
   <ion-list>
     <ion-item *ngFor="let audio of audioList">
         <label>{{ audio.name }}</label>
-        <button (click)="playAudio(audio.name)"><ion-icon name="play"></ion-icon></button>
+        <button (click)="playAudio(audio.file)"><ion-icon name="play"></ion-icon></button>
         
         <button (click)="shareAudio(audio.name, audio.file)"><ion-icon name="share-alt"></ion-icon></button>
     </ion-item>
