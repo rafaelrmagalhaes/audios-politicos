@@ -6,13 +6,16 @@ import { AdMobFree, AdMobFreeBannerConfig } from '@ionic-native/admob-free';
 
 declare var require: any;
 
+const baseUrl = 'http://audiospoliticos.com.br/assets/audios';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 
 export class HomePage {
-  people = require('../../assets/audios/audios.json');
+
+  people = require(`../../assets/audios/audios.json`);
 
   constructor(public navCtrl: NavController, private admobFree: AdMobFree) {
     const bannerConfig: AdMobFreeBannerConfig = {
@@ -65,7 +68,7 @@ export class AudioListPage {
   }
 
   shareAudio(audioName, audioFile) {
-    this.socialSharing.share(audioName, this.name, `www/assets/audios/${this.slug}/${audioFile}`).then(() => {
+    this.socialSharing.share(audioName, this.name, `${baseUrl}/${this.slug}/${audioFile}`).then(() => {
     }).catch((e) => {
       console.log(e);
     });
