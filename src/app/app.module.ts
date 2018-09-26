@@ -12,6 +12,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StreamingMedia } from '@ionic-native/streaming-media';
 import { SocialSharing } from '@ionic-native/social-sharing';
 import { AdMobFree } from '@ionic-native/admob-free';
+import { Network } from '@ionic-native/network';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { AdMobFree } from '@ionic-native/admob-free';
     StreamingMedia,
     SocialSharing,
     AdMobFree,
+    Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
