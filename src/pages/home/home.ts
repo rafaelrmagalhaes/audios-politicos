@@ -15,7 +15,7 @@ const baseUrl = 'http://audiospoliticos.com.br/assets/audios';
 
 export class HomePage {
 
-  people = require(`../../assets/audios/audios.json`);
+  people = require(`../../audios.json`);
 
   constructor(public navCtrl: NavController, private admobFree: AdMobFree) {
     const bannerConfig: AdMobFreeBannerConfig = {
@@ -68,6 +68,7 @@ export class AudioListPage {
   }
 
   shareAudio(audioName, audioFile) {
+    console.log(`${baseUrl}/${this.slug}/${audioFile}`);
     this.socialSharing.share(audioName, this.name, `${baseUrl}/${this.slug}/${audioFile}`).then(() => {
     }).catch((e) => {
       console.log(e);
