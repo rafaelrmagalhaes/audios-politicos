@@ -6,6 +6,9 @@ App com os áudios mais marcantes dos nossos queridos políticos.
 
 Seguir o modelo dos outros áudios no arquivo ```src/audios.json```. O arquivo mp3 deve ficar na pasta ```src/assets/audios/nome-do-politico```.
 
+- [Site para baixar o áudio do YouTube](https://www.onlinevideoconverter.com/pt/video-converter)
+- [Site para cortar o áudio](https://audiotrimmer.com/)
+
 ## Como rodar o projeto para testar o áudio
 
 - Instalar o [Node.js](https://nodejs.org/en/)
