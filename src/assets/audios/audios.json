@@ -52,6 +52,10 @@
                 "file": "po-num-to-de-novo.mp3"
             },
             {
+                "name": "Prova do Enem",
+                "file": "prova-do-enem.mp3"
+            },
+            {
                 "name": "Risada",
                 "file": "risada.mp3"
             },
@@ -62,6 +66,10 @@
             {
                 "name": "Única coisa boa do Maranhão",
                 "file": "unica-coisa-boa-do-maranhao.mp3"
+            },
+            {
+                "name": "Vagabunda",
+                "file": "vagabunda.mp3"
             },
             {
                 "name": "Vai queimar tua rosquinha",
@@ -84,6 +92,40 @@
         ]
     },
     {
+        "name": "Cabo Daciolo",
+        "slug": "cabo-daciolo",
+        "audio": [
+            {
+                "name": "400 bilhões de sonegadores",
+                "file": "400-bilhoes-de-sonegadores.mp3"
+            },
+            {
+                "name": "Glória a Deus",
+                "file": "gloria-a-deus.mp3"
+            },
+            {
+                "name": "Nunca saí em pesquisa nenhuma",
+                "file": "nunca-sai-em-pesquisa-nenhuma.mp3"
+            },
+            {
+                "name": "Pra honra e glória do senhor Jesus",
+                "file": "pra-honra-e-gloria-do-senhor-jesus.mp3"
+            },
+            {
+                "name": "Profetizando",
+                "file": "profetizando.mp3"
+            },
+            {
+                "name": "Saiam da nação brasileira",
+                "file": "saiam-da-nacao-brasileira.mp3"
+            },
+            {
+                "name": "Vão tentar me matar",
+                "file": "vao-tentar-me-matar.mp3"
+            }
+        ]
+    },
+    {
         "name": "Ciro Gomes",
         "slug": "ciro-gomes",
         "audio": [
@@ -94,6 +136,10 @@
             {
                 "name": "A senhora chamou a Beyoncé",
                 "file": "a-senhora-chamou-a-beyonce.mp3"
+            },
+            {
+                "name": "Could send me to PQP",
+                "file": "could-send-me-to-pqp.mp3"
             },
             {
                 "name": "Isso dá bilhão?",
@@ -110,7 +156,11 @@
         "slug": "collor",
         "audio": [
             {
-                "name": "É uma mentira da Receita Federal",
+                "name": "Eu repudio",
+                "file": "eu-repudio.mp3"
+            },
+            {
+                "name": "Mentira da Receita Federal",
                 "file": "mentira-da-receita-federal.mp3"
             },
             {
@@ -394,6 +444,10 @@
             {
                 "name": "Se o Pitta não for um grande prefeito, nunca mais vote em mim",
                 "file": "pitta-grande-prefeito.mp3"
+            },
+            {
+                "name": "Tinha rota na rua",
+                "file": "tinha-rota-na-rua.mp3"
             }
         ]
     },
