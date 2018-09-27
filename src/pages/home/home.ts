@@ -10,7 +10,7 @@ declare var require: any;
 })
 
 export class HomePage {
-  people = require('../../assets/audios/audios.json');
+  people = require('../../audios.json');
 
   constructor(public navCtrl: NavController) {}
 
