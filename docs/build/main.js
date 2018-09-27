@@ -1,1 +1,348 @@
-webpackJsonp([0],{131:function(l,n){function a(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}a.keys=function(){return[]},a.resolve=a,l.exports=a,a.id=131},162:function(l,n){function a(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}a.keys=function(){return[]},a.resolve=a,l.exports=a,a.id=162},188:function(l,n,a){"use strict";function u(l){return c._19(0,[(l()(),c.Z(0,0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,a){var u=!0,e=l.component;if("click"===n){u=!1!==c._11(l,6).close()&&u}if("click"===n){u=!1!==e.openPage(l.context.$implicit)&&u}return u},F.b,F.a)),c.Y(1,1097728,null,3,w.a,[L.a,M.a,c.j,c.z,[2,T.a]],null,null),c._16(335544320,4,{contentLabel:0}),c._16(603979776,5,{_buttons:1}),c._16(603979776,6,{_icons:1}),c.Y(5,16384,null,0,V.a,[],null,null),c.Y(6,16384,null,0,S.a,[B.a],{menuClose:[0,"menuClose"]},null),(l()(),c._18(7,2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"")},function(l,n){l(n,7,0,n.context.$implicit.title)})}function e(l){return c._19(0,[c._16(402653184,1,{nav:0}),(l()(),c.Z(1,0,null,null,28,"ion-menu",[["role","navigation"]],null,null,null,O.b,O.a)),c._14(6144,null,R.a,null,[D.a]),c.Y(3,245760,null,2,D.a,[B.a,c.j,M.a,$.a,c.z,I.a,J.l,N.a,Q.a],{content:[0,"content"]},null),c._16(335544320,2,{menuContent:0}),c._16(335544320,3,{menuNav:0}),(l()(),c._18(-1,0,["\n  "])),(l()(),c.Z(7,0,null,0,10,"ion-header",[],null,null,null,null,null)),c.Y(8,16384,null,0,G.a,[M.a,c.j,c.z,[2,H.a]],null,null),(l()(),c._18(-1,null,["\n    "])),(l()(),c.Z(10,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,W.b,W.a)),c.Y(11,49152,null,0,X.a,[M.a,c.j,c.z],null,null),(l()(),c._18(-1,3,["\n      "])),(l()(),c.Z(13,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),c.Y(14,49152,null,0,K.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),(l()(),c._18(-1,0,["Menu"])),(l()(),c._18(-1,3,["\n    "])),(l()(),c._18(-1,null,["\n  "])),(l()(),c._18(-1,0,["\n\n  "])),(l()(),c.Z(19,0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),c.Y(20,4374528,[[2,4]],0,al.a,[M.a,$.a,N.a,c.j,c.z,Q.a,I.a,c.u,[2,H.a],[2,ul.a]],null,null),(l()(),c._18(-1,1,["\n    "])),(l()(),c.Z(22,0,null,1,5,"ion-list",[],null,null,null,null,null)),c.Y(23,16384,null,0,el.a,[M.a,c.j,c.z,$.a,J.l,N.a],null,null),(l()(),c._18(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,u)),c.Y(26,802816,null,0,ol.h,[c.I,c.F,c.p],{ngForOf:[0,"ngForOf"]},null),(l()(),c._18(-1,null,["\n    "])),(l()(),c._18(-1,1,["\n  "])),(l()(),c._18(-1,0,["\n"])),(l()(),c._18(-1,null,["\n\n"])),(l()(),c._18(-1,null,["\n"])),(l()(),c.Z(32,0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,il.b,il.a)),c._14(6144,null,R.a,null,[tl.a]),c.Y(34,4374528,[[1,4],["content",4]],0,tl.a,[[2,H.a],[2,ul.a],Q.a,M.a,$.a,c.j,c.u,c.z,c.i,J.l,sl.a,[2,rl.a],N.a,c.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null)],function(l,n){var a=n.component;l(n,3,0,c._11(n,34));l(n,26,0,a.pages);l(n,34,0,"false",a.rootPage)},function(l,n){l(n,10,0,c._11(n,11)._sbPadding);l(n,19,0,c._11(n,20).statusbarPadding,c._11(n,20)._hasRefresher)})}function o(l){return c._19(0,[(l()(),c.Z(0,0,null,null,8,"button",[["class","item item-block"],["icon-start",""],["ion-item",""]],null,[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==l.component.openAudioList(l.context.$implicit.audio,l.context.$implicit.name,l.context.$implicit.slug)&&u}return u},F.b,F.a)),c.Y(1,1097728,null,3,w.a,[L.a,M.a,c.j,c.z,[2,T.a]],null,null),c._16(335544320,2,{contentLabel:0}),c._16(603979776,3,{_buttons:1}),c._16(603979776,4,{_icons:1}),c.Y(5,16384,null,0,V.a,[],null,null),(l()(),c._18(-1,2,["\n      "])),(l()(),c.Z(7,0,null,2,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),c._18(8,2,[" ","\n    "]))],null,function(l,n){l(n,7,0,c._2(1,"assets/imgs/",n.context.$implicit.slug,".jpg"));l(n,8,0,n.context.$implicit.name)})}function i(l){return c._19(0,[(l()(),c.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),c.Y(1,16384,null,0,G.a,[M.a,c.j,c.z,[2,H.a]],null,null),(l()(),c._18(-1,null,["\n  "])),(l()(),c.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),c.Y(4,49152,null,0,ll.a,[Q.a,[2,H.a],[2,ul.a],M.a,c.j,c.z],null,null),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==c._11(l,8).toggle()&&u}return u},pl.b,pl.a)),c.Y(7,1097728,[[1,4]],0,_l.a,[[8,""],M.a,c.j,c.z],null,null),c.Y(8,1064960,null,0,fl.a,[B.a,[2,H.a],[2,_l.a],[2,ll.a]],{menuToggle:[0,"menuToggle"]},null),c.Y(9,16384,null,1,gl.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),c._16(603979776,1,{_buttons:1}),(l()(),c._18(-1,0,["\n      "])),(l()(),c.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(13,147456,null,0,hl.a,[M.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._18(-1,0,["\n    "])),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(16,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),c.Y(17,49152,null,0,K.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),(l()(),c._18(-1,0,["Selecione o político"])),(l()(),c._18(-1,3,["\n  "])),(l()(),c._18(-1,null,["\n"])),(l()(),c._18(-1,null,["\n\n"])),(l()(),c.Z(22,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),c.Y(23,4374528,null,0,al.a,[M.a,$.a,N.a,c.j,c.z,Q.a,I.a,c.u,[2,H.a],[2,ul.a]],null,null),(l()(),c._18(-1,1,["\n  "])),(l()(),c.Z(25,0,null,1,5,"ion-list",[],null,null,null,null,null)),c.Y(26,16384,null,0,el.a,[M.a,c.j,c.z,$.a,J.l,N.a],null,null),(l()(),c._18(-1,null,["\n    "])),(l()(),c.U(16777216,null,null,1,null,o)),c.Y(29,802816,null,0,ol.h,[c.I,c.F,c.p],{ngForOf:[0,"ngForOf"]},null),(l()(),c._18(-1,null,["\n  "])),(l()(),c._18(-1,1,["\n"]))],function(l,n){var a=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,29,0,a.people)},function(l,n){l(n,3,0,c._11(n,4)._hidden,c._11(n,4)._sbPadding);l(n,6,0,c._11(n,8).isHidden);l(n,12,0,c._11(n,13)._hidden);l(n,22,0,c._11(n,23).statusbarPadding,c._11(n,23)._hasRefresher)})}function t(l){return c._19(0,[(l()(),c.Z(0,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,F.b,F.a)),c.Y(1,1097728,null,3,w.a,[L.a,M.a,c.j,c.z,[2,T.a]],null,null),c._16(335544320,2,{contentLabel:0}),c._16(603979776,3,{_buttons:1}),c._16(603979776,4,{_icons:1}),c.Y(5,16384,null,0,V.a,[],null,null),(l()(),c._18(-1,2,["\n        "])),(l()(),c.Z(7,0,null,2,1,"label",[],null,null,null,null,null)),(l()(),c._18(8,null,["",""])),(l()(),c._18(-1,2,["\n        "])),(l()(),c.Z(10,0,null,2,2,"button",[],null,[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==l.component.playAudio(l.context.$implicit.name)&&u}return u},null,null)),(l()(),c.Z(11,0,null,null,1,"ion-icon",[["name","play"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(12,147456,[[4,4]],0,hl.a,[M.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._18(-1,2,["\n    "]))],function(l,n){l(n,12,0,"play")},function(l,n){l(n,8,0,n.context.$implicit.name);l(n,11,0,c._11(n,12)._hidden)})}function s(l){return c._19(0,[(l()(),c.Z(0,0,null,null,21,"ion-header",[],null,null,null,null,null)),c.Y(1,16384,null,0,G.a,[M.a,c.j,c.z,[2,H.a]],null,null),(l()(),c._18(-1,null,["\n  "])),(l()(),c.Z(3,0,null,null,17,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),c.Y(4,49152,null,0,ll.a,[Q.a,[2,H.a],[2,ul.a],M.a,c.j,c.z],null,null),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==c._11(l,8).toggle()&&u}return u},pl.b,pl.a)),c.Y(7,1097728,[[1,4]],0,_l.a,[[8,""],M.a,c.j,c.z],null,null),c.Y(8,1064960,null,0,fl.a,[B.a,[2,H.a],[2,_l.a],[2,ll.a]],{menuToggle:[0,"menuToggle"]},null),c.Y(9,16384,null,1,gl.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),c._16(603979776,1,{_buttons:1}),(l()(),c._18(-1,0,["\n      "])),(l()(),c.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(13,147456,null,0,hl.a,[M.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._18(-1,0,["\n    "])),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(16,0,null,3,3,"ion-title",[],null,null,null,U.b,U.a)),c.Y(17,49152,null,0,K.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),(l()(),c.Z(18,0,null,0,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),c._18(19,0,[" ",""])),(l()(),c._18(-1,3,["\n  "])),(l()(),c._18(-1,null,["\n"])),(l()(),c._18(-1,null,["\n\n"])),(l()(),c.Z(23,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),c.Y(24,4374528,null,0,al.a,[M.a,$.a,N.a,c.j,c.z,Q.a,I.a,c.u,[2,H.a],[2,ul.a]],null,null),(l()(),c._18(-1,1,["\n  "])),(l()(),c.Z(26,0,null,1,5,"ion-list",[],null,null,null,null,null)),c.Y(27,16384,null,0,el.a,[M.a,c.j,c.z,$.a,J.l,N.a],null,null),(l()(),c._18(-1,null,["\n    "])),(l()(),c.U(16777216,null,null,1,null,t)),c.Y(30,802816,null,0,ol.h,[c.I,c.F,c.p],{ngForOf:[0,"ngForOf"]},null),(l()(),c._18(-1,null,["\n    \n      \n  "])),(l()(),c._18(-1,1,["\n"]))],function(l,n){var a=n.component;l(n,8,0,"");l(n,13,0,"menu");l(n,30,0,a.audioList)},function(l,n){var a=n.component;l(n,3,0,c._11(n,4)._hidden,c._11(n,4)._sbPadding);l(n,6,0,c._11(n,8).isHidden);l(n,12,0,c._11(n,13)._hidden);l(n,18,0,c._2(1,"assets/imgs/",a.slug,".jpg"));l(n,19,0,a.name);l(n,23,0,c._11(n,24).statusbarPadding,c._11(n,24)._hasRefresher)})}function r(l){return c._19(0,[(l()(),c.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),c.Y(1,16384,null,0,G.a,[M.a,c.j,c.z,[2,H.a]],null,null),(l()(),c._18(-1,null,["\n  "])),(l()(),c.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),c.Y(4,49152,null,0,ll.a,[Q.a,[2,H.a],[2,ul.a],M.a,c.j,c.z],null,null),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==c._11(l,8).toggle()&&u}return u},pl.b,pl.a)),c.Y(7,1097728,[[1,4]],0,_l.a,[[8,""],M.a,c.j,c.z],null,null),c.Y(8,1064960,null,0,fl.a,[B.a,[2,H.a],[2,_l.a],[2,ll.a]],{menuToggle:[0,"menuToggle"]},null),c.Y(9,16384,null,1,gl.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),c._16(603979776,1,{_buttons:1}),(l()(),c._18(-1,0,["\n      "])),(l()(),c.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(13,147456,null,0,hl.a,[M.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._18(-1,0,["\n    "])),(l()(),c._18(-1,3,["\n    "])),(l()(),c.Z(16,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),c.Y(17,49152,null,0,K.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),(l()(),c._18(-1,0,["Envie seu áudio"])),(l()(),c._18(-1,3,["\n  "])),(l()(),c._18(-1,null,["\n"])),(l()(),c._18(-1,null,["\n\n"])),(l()(),c.Z(22,0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),c.Y(23,4374528,null,0,al.a,[M.a,$.a,N.a,c.j,c.z,Q.a,I.a,c.u,[2,H.a],[2,ul.a]],null,null),(l()(),c._18(-1,1,["\n  "])),(l()(),c.Z(25,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),c._18(-1,null,["Você pode enviar sugestões de áudios através do formulário abaixo:"])),(l()(),c._18(-1,1,["\n\n  "])),(l()(),c.Z(28,0,null,1,1,"iframe",[["frameborder","0"],["height","1000"],["marginheight","0"],["marginwidth","0"],["src","https://docs.google.com/forms/d/e/1FAIpQLSdIX3bztCAJb7wdhj4sbi7NQK0MryTMcQMAbV71thOUFSwU4A/viewform?embedded=true"],["width","100%"]],null,null,null,null,null)),(l()(),c._18(-1,null,["Carregando…"])),(l()(),c._18(-1,1,["\n"])),(l()(),c._18(-1,null,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,c._11(n,4)._hidden,c._11(n,4)._sbPadding);l(n,6,0,c._11(n,8).isHidden);l(n,12,0,c._11(n,13)._hidden);l(n,22,0,c._11(n,23).statusbarPadding,c._11(n,23)._hasRefresher)})}function m(l){return c._19(0,[(l()(),c.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),c.Y(1,16384,null,0,G.a,[M.a,c.j,c.z,[2,H.a]],null,null),(l()(),c._18(-1,null,["\n    "])),(l()(),c.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,cl.b,cl.a)),c.Y(4,49152,null,0,ll.a,[Q.a,[2,H.a],[2,ul.a],M.a,c.j,c.z],null,null),(l()(),c._18(-1,3,["\n      "])),(l()(),c.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,a){var u=!0;if("click"===n){u=!1!==c._11(l,8).toggle()&&u}return u},pl.b,pl.a)),c.Y(7,1097728,[[1,4]],0,_l.a,[[8,""],M.a,c.j,c.z],null,null),c.Y(8,1064960,null,0,fl.a,[B.a,[2,H.a],[2,_l.a],[2,ll.a]],{menuToggle:[0,"menuToggle"]},null),c.Y(9,16384,null,1,gl.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),c._16(603979776,1,{_buttons:1}),(l()(),c._18(-1,0,["\n        "])),(l()(),c.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(13,147456,null,0,hl.a,[M.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._18(-1,0,["\n      "])),(l()(),c._18(-1,3,["\n      "])),(l()(),c.Z(16,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),c.Y(17,49152,null,0,K.a,[M.a,c.j,c.z,[2,X.a],[2,ll.a]],null,null),(l()(),c._18(-1,0,["Compartilhe o App"])),(l()(),c._18(-1,3,["\n    "])),(l()(),c._18(-1,null,["\n  "])),(l()(),c._18(-1,null,["\n  \n"])),(l()(),c.Z(22,0,null,null,15,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nl.b,nl.a)),c.Y(23,4374528,null,0,al.a,[M.a,$.a,N.a,c.j,c.z,Q.a,I.a,c.u,[2,H.a],[2,ul.a]],null,null),(l()(),c._18(-1,1,["\n  "])),(l()(),c.Z(25,0,null,1,5,"p",[],null,null,null,null,null)),(l()(),c._18(-1,null,["Play Store:"])),(l()(),c.Z(27,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._18(-1,null,[" "])),(l()(),c.Z(29,0,null,null,1,"a",[["href","https://play.google.com/store/apps/details?id=audios.politicos"],["target","_blank"]],null,null,null,null,null)),(l()(),c._18(-1,null,["https://play.google.com/store/apps/details?id=audios.politicos"])),(l()(),c._18(-1,1,["\n  "])),(l()(),c.Z(32,0,null,1,4,"p",[],null,null,null,null,null)),(l()(),c._18(-1,null,["Versão Web: "])),(l()(),c.Z(34,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c.Z(35,0,null,null,1,"a",[["href","http://audiospoliticos.com.br"],["target","_blank"]],null,null,null,null,null)),(l()(),c._18(-1,null,["http://audiospoliticos.com.br"])),(l()(),c._18(-1,1,["\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,c._11(n,4)._hidden,c._11(n,4)._sbPadding);l(n,6,0,c._11(n,8).isHidden);l(n,12,0,c._11(n,13)._hidden);l(n,22,0,c._11(n,23).statusbarPadding,c._11(n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var d=a(36),c=a(0),p=(a(5),a(84),a(74)),_=a(75),f=a(76),g=function(){function l(l){this.navCtrl=l,this.people=a(222)}return l.prototype.openAudioList=function(l,n,a){this.navCtrl.push(h,{audioList:l,name:n,slug:a})},l}(),h=function(){function l(l,n){this.nativeAudio=n,this.audiosPlayed=[],this.audioList=l.data.audioList,this.name=l.data.name,this.slug=l.data.slug}return l.prototype.ionViewWillEnter=function(){for(var l=0;l<=this.audioList.length-1;l++)this.nativeAudio.preloadSimple(this.audioList[l].name,"assets/audios/"+this.slug+"/"+this.audioList[l].file)},l.prototype.ionViewWillLeave=function(){for(var l=0;l<=this.audioList.length-1;l++)this.nativeAudio.unload(this.audioList[l].name)},l.prototype.playAudio=function(l){var n=this;this.destroyAudios(),this.audiosPlayed.push(l),this.nativeAudio.play(l,function(){return n.audiosPlayed=[]})},l.prototype.destroyAudios=function(){this.audiosPlayed.length>0&&this.nativeAudio.stop(this.audiosPlayed[0]),this.audiosPlayed=[]},l}(),b=function(){return function(){}}(),v=function(){return function(){}}(),j=function(){function l(l,n,a){this.platform=l,this.statusBar=n,this.splashScreen=a,this.rootPage=g,this.initializeApp(),this.pages=[{title:"Áudios",component:g},{title:"Envie seu áudio",component:b},{title:"Compartilhe o App!",component:v}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.nav.setRoot(l.component)},l}(),y=function(){return function(){}}(),z=a(48),Y=a(223),Z=a(224),q=a(225),k=a(226),P=a(227),x=a(228),A=a(229),C=a(230),E=a(231),F=a(120),w=a(18),L=a(14),M=a(1),T=a(39),V=a(53),S=a(96),B=a(21),O=a(232),R=a(35),D=a(67),$=a(3),I=a(23),J=a(6),N=a(9),Q=a(7),G=a(46),H=a(4),W=a(233),X=a(26),U=a(77),K=a(40),ll=a(24),nl=a(78),al=a(20),ul=a(16),el=a(44),ol=a(11),il=a(234),tl=a(54),sl=a(32),rl=a(15),ml=c.X({encapsulation:2,styles:[],data:{}}),dl=c.V("ng-component",j,function(l){return c._19(0,[(l()(),c.Z(0,0,null,null,1,"ng-component",[],null,null,null,e,ml)),c.Y(1,49152,null,0,j,[$.a,p.a,_.a],null,null)],null,null)},{},{},[]),cl=a(121),pl=a(29),_l=a(17),fl=a(55),gl=a(57),hl=a(28),bl=a(10),vl=c.X({encapsulation:2,styles:[],data:{}}),jl=c.V("page-home",g,function(l){return c._19(0,[(l()(),c.Z(0,0,null,null,1,"page-home",[],null,null,null,i,vl)),c.Y(1,49152,null,0,g,[ul.a],null,null)],null,null)},{},{},[]),yl=c.X({encapsulation:2,styles:[],data:{}}),zl=c.V("audio-list",h,function(l){return c._19(0,[(l()(),c.Z(0,0,null,null,1,"audio-list",[],null,null,null,s,yl)),c.Y(1,49152,null,0,h,[bl.a,f.a],null,null)],null,null)},{},{},[]),Yl=c.X({encapsulation:2,styles:[],data:{}}),Zl=c.V("send-audio",b,function(l){return c._19(0,[(l()(),c.Z(0,0,null,null,1,"send-audio",[],null,null,null,r,Yl)),c.Y(1,49152,null,0,b,[],null,null)],null,null)},{},{},[]),ql=c.X({encapsulation:2,styles:[],data:{}}),kl=c.V("share",v,function(l){return c._19(0,[(l()(),c.Z(0,0,null,null,1,"share",[],null,null,null,m,ql)),c.Y(1,49152,null,0,v,[],null,null)],null,null)},{},{},[]),Pl=a(118),xl=a(22),Al=a(88),Cl=a(90),El=a(115),Fl=a(34),wl=a(95),Ll=a(186),Ml=a(50),Tl=a(45),Vl=a(98),Sl=a(62),Bl=a(103),Ol=a(114),Rl=a(110),Dl=a(185),$l=a(116),Il=a(97),Jl=a(117),Nl=c.W(y,[z.b],function(l){return c._7([c._8(512,c.i,c.S,[[8,[Y.a,Z.a,q.a,k.a,P.a,x.a,A.a,C.a,E.a,dl,jl,zl,Zl,kl]],[3,c.i],c.s]),c._8(5120,c.r,c._15,[[3,c.r]]),c._8(4608,ol.k,ol.j,[c.r,[2,ol.s]]),c._8(5120,c.b,c._1,[]),c._8(5120,c.p,c._9,[]),c._8(5120,c.q,c._12,[]),c._8(4608,d.c,d.q,[ol.c]),c._8(6144,c.D,null,[d.c]),c._8(4608,d.f,Pl.a,[]),c._8(5120,d.d,function(l,n,a,u,e){return[new d.k(l,n),new d.o(a),new d.n(u,e)]},[ol.c,c.u,ol.c,ol.c,d.f]),c._8(4608,d.e,d.e,[d.d,c.u]),c._8(135680,d.m,d.m,[ol.c]),c._8(4608,d.l,d.l,[d.e,d.m]),c._8(6144,c.B,null,[d.l]),c._8(6144,d.p,null,[d.m]),c._8(4608,c.G,c.G,[c.u]),c._8(4608,d.h,d.h,[ol.c]),c._8(4608,d.i,d.i,[ol.c]),c._8(4608,xl.k,xl.k,[]),c._8(4608,xl.c,xl.c,[]),c._8(4608,Al.a,Al.a,[Q.a,M.a]),c._8(4608,Cl.a,Cl.a,[Q.a,M.a]),c._8(4608,El.a,El.a,[]),c._8(4608,L.a,L.a,[]),c._8(4608,Fl.a,Fl.a,[$.a]),c._8(4608,I.a,I.a,[M.a,$.a,c.u,N.a]),c._8(4608,wl.a,wl.a,[Q.a,M.a]),c._8(5120,ol.f,Ll.b,[ol.q,[2,ol.a],M.a]),c._8(4608,ol.e,ol.e,[ol.f]),c._8(5120,Ml.b,Ml.d,[Q.a,Ml.a]),c._8(5120,rl.a,rl.b,[Q.a,Ml.b,ol.e,Tl.b,c.i]),c._8(4608,Vl.a,Vl.a,[Q.a,M.a,rl.a]),c._8(4608,Sl.a,Sl.a,[Q.a,M.a]),c._8(4608,Bl.a,Bl.a,[Q.a,M.a,rl.a]),c._8(4608,Ol.a,Ol.a,[M.a,$.a,N.a,Q.a,J.l]),c._8(4608,Rl.a,Rl.a,[Q.a,M.a]),c._8(4608,sl.a,sl.a,[$.a,M.a]),c._8(4608,p.a,p.a,[]),c._8(4608,_.a,_.a,[]),c._8(4608,f.a,f.a,[]),c._8(512,ol.b,ol.b,[]),c._8(512,c.k,Dl.a,[]),c._8(256,M.b,{},[]),c._8(1024,$l.a,$l.b,[]),c._8(1024,$.a,$.b,[d.b,$l.a,c.u]),c._8(1024,M.a,M.c,[M.b,$.a]),c._8(512,N.a,N.a,[$.a]),c._8(512,B.a,B.a,[]),c._8(512,Q.a,Q.a,[M.a,$.a,[2,B.a]]),c._8(512,J.l,J.l,[Q.a]),c._8(256,Ml.a,{links:[]},[]),c._8(512,c.h,c.h,[]),c._8(512,Il.a,Il.a,[c.h]),c._8(1024,Tl.b,Tl.c,[Il.a,c.o]),c._8(1024,c.c,function(l,n,a,u,e,o,i,t,s,r,m,c,p){return[d.s(l),Jl.a(n),El.b(a,u),Ol.b(e,o,i,t,s),Tl.d(r,m,c,p)]},[[2,c.t],M.a,$.a,N.a,M.a,$.a,N.a,Q.a,J.l,M.a,Ml.a,Tl.b,c.u]),c._8(512,c.d,c.d,[[2,c.c]]),c._8(131584,c.f,c.f,[c.u,c.T,c.o,c.k,c.i,c.d]),c._8(512,c.e,c.e,[c.f]),c._8(512,d.a,d.a,[[3,d.a]]),c._8(512,xl.j,xl.j,[]),c._8(512,xl.d,xl.d,[]),c._8(512,xl.i,xl.i,[]),c._8(512,Ll.a,Ll.a,[]),c._8(512,y,y,[]),c._8(256,z.a,j,[]),c._8(256,ol.a,"/",[])])});Object(c.M)(),Object(d.j)().bootstrapModuleFactory(Nl)},222:function(l,n){l.exports=[{name:"Aécio Neves",slug:"aecio-neves",audio:[{name:"Não seja leviana",file:"nao-seja-leviana.mp3"}]},{name:"Barroso",slug:"barroso",audio:[{name:"Pitadas de psicopatia",file:"pitadas-de-psicopatia.mp3"}]},{name:"Bolsonaro",slug:"bolsonaro",audio:[{name:"Canalhas",file:"canalhas.mp3"},{name:"Dá que eu te dou outra",file:"da-que-eu-te-dou-outra.mp3"},{name:"É só você não estuprar, não sequestrar...",file:"e-so-voce-nao-estuprar.mp3"},{name:"Eu sonego tudo que for possível",file:"eu-sonego.mp3"},{name:"Eu sou favorável à tortura, tu sabe disso",file:"eu-sou-favoravel-a-tortura.mp3"},{name:"O bigodudo ou o careca",file:"o-bigodudo-ou-o-careca.mp3"},{name:"Po, num to de novo",file:"po-num-to-de-novo.mp3"},{name:"Prova do Enem",file:"prova-do-enem.mp3"},{name:"Risada",file:"risada.mp3"},{name:"Tem que se foder e acabou",file:"tem-que-se-foder-e-acabou.mp3"},{name:"Única coisa boa do Maranhão",file:"unica-coisa-boa-do-maranhao.mp3"},{name:"Vagabunda",file:"vagabunda.mp3"},{name:"Vai queimar tua rosquinha",file:"vai-queimar-tua-rosquinha.mp3"},{name:"Vou votar no Lula",file:"vou-votar-no-lula.mp3"}]},{name:"Brizola",slug:"brizola",audio:[{name:"Filhotes da ditadura",file:"filhotes-da-ditadura.mp3"}]},{name:"Cabo Daciolo",slug:"cabo-daciolo",audio:[{name:"400 bilhões de sonegadores",file:"400-bilhoes-de-sonegadores.mp3"},{name:"Glória a Deus",file:"gloria-a-deus.mp3"},{name:"Nunca saí em pesquisa nenhuma",file:"nunca-sai-em-pesquisa-nenhuma.mp3"},{name:"Pra honra e glória do senhor Jesus",file:"pra-honra-e-gloria-do-senhor-jesus.mp3"},{name:"Profetizando",file:"profetizando.mp3"},{name:"Saiam da nação brasileira",file:"saiam-da-nacao-brasileira.mp3"},{name:"Vão tentar me matar",file:"vao-tentar-me-matar.mp3"}]},{name:"Ciro Gomes",slug:"ciro-gomes",audio:[{name:"526 terabytes de encryption",file:"526-terabytes-de-encryption.mp3"},{name:"A senhora chamou a Beyoncé",file:"a-senhora-chamou-a-beyonce.mp3"},{name:"Could send me to PQP",file:"could-send-me-to-pqp.mp3"},{name:"Isso dá bilhão?",file:"isso-da-bilhao.mp3"},{name:"Vou receber a turma dele na bala",file:"vou-receber-na-bala.mp3"}]},{name:"Collor",slug:"collor",audio:[{name:"Eu repudio",file:"eu-repudio.mp3"},{name:"Mentira da Receita Federal",file:"mentira-da-receita-federal.mp3"},{name:"Isso é uma mentira",file:"isso-e-uma-mentira.mp3"},{name:"São palavras que quero que as engula",file:"sao-palavras-que-quero-que-as-engula.mp3"},{name:"Sonho de uma noite de verão",file:"sonho-de-uma-noite-de-verao.mp3"}]},{name:"Dilma",slug:"dilma",audio:[{name:"Bessias",file:"bessias.mp3"},{name:"Bom dia ou boa tarde",file:"bom-dia-ou-boa-tarde.mp3"},{name:"Dobrar a meta",file:"dobrar-a-meta.mp3"},{name:"Engasguei comigo mesma",file:"engasguei-comigo-mesma.mp3"},{name:"Estocar vento",file:"estocar-vento.mp3"},{name:"Eu podia",file:"eu-podia.mp3"},{name:"Figura oculta que é um cachorro atrás",file:"figura-oculta.mp3"},{name:"Happy Birthday",file:"happy-birthday.mp3"},{name:"Índios morriam por falta de assistência técnica",file:"indios-morriam-por-falta-de-assistencia-tecnica.mp3"},{name:"Melhor prefeito das galáxias",file:"melhor-prefeito-das-galaxias.mp3"},{name:"Mulheres Sapiens",file:"mulheres-sapiens.mp3"},{name:"No que se refere",file:"no-que-se-refere.mp3"},{name:"O meio ambiente é uma ameaça",file:"o-meio-ambiente-e-uma-ameaca.mp3"},{name:"Quem ganhar ou perder",file:"quem-ganhar-ou-perder.mp3"},{name:"Saudando a mandioca",file:"saudando-a-mandioca.mp3"}]},{name:"Eduardo Cunha",slug:"eduardo-cunha",audio:[{name:"Como vota deputado?",file:"como-vota-deputado.mp3"},{name:"Que Deus tenha misericórdia dessa nação",file:"que-deus-tenha-misericordia.mp3"}]},{name:"Eduardo Paes",slug:"eduardo-paes",audio:[{name:"Faz muito sexo aqui, Rita",file:"faz-muito-sexo-aqui-rita.mp3"},{name:"Maricá",file:"marica.mp3"},{name:"Vai trepar muito nesse quartinho aqui",file:"vai-trepar-muito-nesse-quartinho-aqui.mp3"}]},{name:"Enéas",slug:"eneas",audio:[{name:"Falando inglês",file:"falando-ingles.mp3"},{name:"Meu nome é Enéas",file:"meu-nome-e-eneas.mp3"}]},{name:"Eymael",slug:"eymael",audio:[{name:"Ey-ey-ey-mael",file:"ey-ey-ey-mael.mp3"}]},{name:"Heráclito Fortes",slug:"heraclito-fortes",audio:[{name:"Inveja? Eu não sou corno",file:"inveja-eu-nao-sou-corno.mp3"}]},{name:"Jandira Feghali",slug:"jandira-feghali",audio:[{name:"Tentou ajudar o candidato",file:"tentou-ajudar-o-candidato.mp3"}]},{name:"Jean Wyllys",slug:"jean-wyllys",audio:[{name:"Ele me chamou de cu ambulante",file:"ele-me-chamou-de-cu-ambulante.mp3"}]},{name:"Joaquim Barbosa",slug:"joaquim-barbosa",audio:[{name:"Capangas do Mato Grosso",file:"capangas-do-mato-grosso.mp3"}]},{name:"José Serra",slug:"jose-serra",audio:[{name:"Come todo mundo",file:"come-todo-mundo.mp3"}]},{name:"Kassab",slug:"kassab",audio:[{name:"Vagabundo",file:"vagabundo.mp3"}]},{name:"Levy Fidelix",slug:"levy-fidelix",audio:[{name:"Aparelho excretor não reproduz",file:"aparelho-excretor-nao-reproduz.mp3"},{name:"Dois iguais não fazem filho",file:"dois-iguais-nao-fazem-filho.mp3"}]},{name:"Lula",slug:"lula",audio:[{name:"Acusado de suicídio",file:"acusado-de-suicidio.mp3"},{name:"Grelo duro",file:"grelo-duro.mp3"},{name:"Pelotas é exportadora de viado",file:"pelotas-exportadora-de-viado.mp3"},{name:"Tchau querida",file:"tchau-querida.mp3"},{name:"Viva alma mais honesta do que eu",file:"viva-alma-mais-honesta-do-que-eu.mp3"}]},{name:"Maria do Rosário",slug:"maria-do-rosario",audio:[{name:"Mas o que é isso?",file:"mas-o-que-e-isso.mp3"}]},{name:"Marta Suplicy",slug:"marta-suplicy",audio:[{name:"Relaxa e goza",file:"relaxa-e-goza.mp3"}]},{name:"Orestes Quércia",slug:"orestes-quercia",audio:[{name:"Caluniador e mentiroso",file:"caluniador-e-mentiroso.mp3"}]},{name:"Paulo Maluf",slug:"paulo-maluf",audio:[{name:"Estupra mas não mata",file:"estupra-mas-nao-mata.mp3"},{name:"Se corrupção existe, é da senhora sua mãe",file:"corrupcao-sua-mae.mp3"},{name:"Se o Pitta não for um grande prefeito, nunca mais vote em mim",file:"pitta-grande-prefeito.mp3"},{name:"Tinha rota na rua",file:"tinha-rota-na-rua.mp3"}]},{name:"Sérgio Cabral",slug:"sergio-cabral",audio:[{name:"Falando inglês",file:"falando-ingles.mp3"}]},{name:"Temer",slug:"temer",audio:[{name:"Acreditamos no poder do diabo",file:"acreditamos-no-poder-do-diabo.mp3"},{name:"Não renunciarei",file:"nao-renunciarei.mp3"},{name:"Voz do demônio",file:"voz-do-demonio.mp3"}]},{name:"Wladimir Costa",slug:"wladimir-costa",audio:[{name:"Minha mãe negra Lucimar",file:"minha-mae-negra-lucimar.mp3"}]}]}},[188]);
+webpackJsonp([0],{
+
+/***/ 109:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 109;
+
+/***/ }),
+
+/***/ 150:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 150;
+
+/***/ }),
+
+/***/ 193:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return HomePage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AudioListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_native_audio__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+        this.people = __webpack_require__(272);
+    }
+    HomePage.prototype.openAudioList = function (audioList, name, slug) {
+        this.navCtrl.push(AudioListPage, { audioList: audioList, name: name, slug: slug });
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\xampp\htdocs\audios-politicos\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Selecione o político</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let person of people" (click)="openAudioList(person.audio, person.name, person.slug)" icon-start>\n\n      <img src="assets/imgs/{{person.slug}}.jpg" /> {{ person.name }}\n\n    </button>\n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\xampp\htdocs\audios-politicos\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+var AudioListPage = /** @class */ (function () {
+    function AudioListPage(params, nativeAudio) {
+        this.nativeAudio = nativeAudio;
+        this.audiosPlayed = [];
+        this.audioList = params.data.audioList;
+        this.name = params.data.name;
+        this.slug = params.data.slug;
+    }
+    AudioListPage.prototype.ionViewWillEnter = function () {
+        for (var i = 0; i <= this.audioList.length - 1; i++) {
+            this.nativeAudio.preloadSimple(this.audioList[i].name, "assets/audios/" + this.slug + "/" + this.audioList[i].file);
+        }
+    };
+    AudioListPage.prototype.ionViewWillLeave = function () {
+        for (var i = 0; i <= this.audioList.length - 1; i++) {
+            this.nativeAudio.unload(this.audioList[i].name);
+        }
+    };
+    AudioListPage.prototype.playAudio = function (audioName) {
+        var _this = this;
+        this.destroyAudios();
+        this.audiosPlayed.push(audioName);
+        this.nativeAudio.play(audioName, function () { return _this.audiosPlayed = []; });
+    };
+    AudioListPage.prototype.destroyAudios = function () {
+        if (this.audiosPlayed.length > 0) {
+            this.nativeAudio.stop(this.audiosPlayed[0]);
+        }
+        this.audiosPlayed = [];
+    };
+    AudioListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'audio-list',template:/*ion-inline-start:"C:\xampp\htdocs\audios-politicos\src\pages\home\audio-list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title><img src="assets/imgs/{{slug}}.jpg" /> {{ name }}</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <ion-item *ngFor="let audio of audioList">\n\n        <label>{{ audio.name }}</label>\n\n        <button (click)="playAudio(audio.name)"><ion-icon name="play"></ion-icon></button>\n\n    </ion-item>\n\n    \n\n      \n\n  </ion-list>\n\n</ion-content>'/*ion-inline-end:"C:\xampp\htdocs\audios-politicos\src\pages\home\audio-list.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_native_audio__["a" /* NativeAudio */]])
+    ], AudioListPage);
+    return AudioListPage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SendAudioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SendAudioPage = /** @class */ (function () {
+    function SendAudioPage() {
+    }
+    SendAudioPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'send-audio',template:/*ion-inline-start:"C:\xampp\htdocs\audios-politicos\src\pages\send-audio\send-audio.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Envie seu áudio</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  <p>Você pode enviar sugestões de áudios através do formulário abaixo:</p>\n\n\n\n  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdIX3bztCAJb7wdhj4sbi7NQK0MryTMcQMAbV71thOUFSwU4A/viewform?embedded=true" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\xampp\htdocs\audios-politicos\src\pages\send-audio\send-audio.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], SendAudioPage);
+    return SendAudioPage;
+}());
+
+//# sourceMappingURL=send-audio.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var SharePage = /** @class */ (function () {
+    function SharePage() {
+    }
+    SharePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'share',template:/*ion-inline-start:"C:\xampp\htdocs\audios-politicos\src\pages\share\share.html"*/'<ion-header>\n\n    <ion-navbar>\n\n      <button ion-button menuToggle>\n\n        <ion-icon name="menu"></ion-icon>\n\n      </button>\n\n      <ion-title>Compartilhe o App</ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n<ion-content padding>\n\n  <p>Play Store:<br> <a href="https://play.google.com/store/apps/details?id=audios.politicos" target="_blank">https://play.google.com/store/apps/details?id=audios.politicos</a></p>\n\n  <p>Versão Web: <br><a href="http://audiospoliticos.com.br" target="_blank">http://audiospoliticos.com.br</a></p>\n\n</ion-content>'/*ion-inline-end:"C:\xampp\htdocs\audios-politicos\src\pages\share\share.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], SharePage);
+    return SharePage;
+}());
+
+//# sourceMappingURL=share.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(220);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 220:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(263);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_send_audio_send_audio__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_share_share__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_audio__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["b" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* AudioListPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_send_audio_send_audio__["a" /* SendAudioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_share_share__["a" /* SharePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                }),
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["b" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* AudioListPage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_send_audio_send_audio__["a" /* SendAudioPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_share_share__["a" /* SharePage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_8__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_9__ionic_native_native_audio__["a" /* NativeAudio */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 263:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(192);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_send_audio_send_audio__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_share_share__ = __webpack_require__(196);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["b" /* HomePage */];
+        this.initializeApp();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: 'Áudios', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["b" /* HomePage */] },
+            { title: 'Envie seu áudio', component: __WEBPACK_IMPORTED_MODULE_5__pages_send_audio_send_audio__["a" /* SendAudioPage */] },
+            { title: 'Compartilhe o App!', component: __WEBPACK_IMPORTED_MODULE_6__pages_share_share__["a" /* SharePage */] }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.nav.setRoot(page.component);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\xampp\htdocs\audios-politicos\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n  <ion-content>\n\n    <ion-list>\n\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n\n        {{p.title}}\n\n      </button>\n\n    </ion-list>\n\n  </ion-content>\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\xampp\htdocs\audios-politicos\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 272:
+/***/ (function(module, exports) {
+
+module.exports = [{"name":"Aécio Neves","slug":"aecio-neves","audio":[{"name":"Não seja leviana","file":"nao-seja-leviana.mp3"}]},{"name":"Barroso","slug":"barroso","audio":[{"name":"Pitadas de psicopatia","file":"pitadas-de-psicopatia.mp3"}]},{"name":"Bolsonaro","slug":"bolsonaro","audio":[{"name":"Canalhas","file":"canalhas.mp3"},{"name":"Dá que eu te dou outra","file":"da-que-eu-te-dou-outra.mp3"},{"name":"É só você não estuprar, não sequestrar...","file":"e-so-voce-nao-estuprar.mp3"},{"name":"Eu sonego tudo que for possível","file":"eu-sonego.mp3"},{"name":"Eu sou favorável à tortura, tu sabe disso","file":"eu-sou-favoravel-a-tortura.mp3"},{"name":"O bigodudo ou o careca","file":"o-bigodudo-ou-o-careca.mp3"},{"name":"Po, num to de novo","file":"po-num-to-de-novo.mp3"},{"name":"Prova do Enem","file":"prova-do-enem.mp3"},{"name":"Risada","file":"risada.mp3"},{"name":"Tem que se foder e acabou","file":"tem-que-se-foder-e-acabou.mp3"},{"name":"Única coisa boa do Maranhão","file":"unica-coisa-boa-do-maranhao.mp3"},{"name":"Vagabunda","file":"vagabunda.mp3"},{"name":"Vai queimar tua rosquinha","file":"vai-queimar-tua-rosquinha.mp3"},{"name":"Vou votar no Lula","file":"vou-votar-no-lula.mp3"}]},{"name":"Brizola","slug":"brizola","audio":[{"name":"Filhotes da ditadura","file":"filhotes-da-ditadura.mp3"}]},{"name":"Cabo Daciolo","slug":"cabo-daciolo","audio":[{"name":"400 bilhões de sonegadores","file":"400-bilhoes-de-sonegadores.mp3"},{"name":"Glória a Deus","file":"gloria-a-deus.mp3"},{"name":"Nunca saí em pesquisa nenhuma","file":"nunca-sai-em-pesquisa-nenhuma.mp3"},{"name":"Pra honra e glória do senhor Jesus","file":"pra-honra-e-gloria-do-senhor-jesus.mp3"},{"name":"Profetizando","file":"profetizando.mp3"},{"name":"Saiam da nação brasileira","file":"saiam-da-nacao-brasileira.mp3"},{"name":"Vão tentar me matar","file":"vao-tentar-me-matar.mp3"}]},{"name":"Ciro Gomes","slug":"ciro-gomes","audio":[{"name":"526 terabytes de encryption","file":"526-terabytes-de-encryption.mp3"},{"name":"A senhora chamou a Beyoncé","file":"a-senhora-chamou-a-beyonce.mp3"},{"name":"Could send me to PQP","file":"could-send-me-to-pqp.mp3"},{"name":"Isso dá bilhão?","file":"isso-da-bilhao.mp3"},{"name":"Vou receber a turma dele na bala","file":"vou-receber-na-bala.mp3"}]},{"name":"Collor","slug":"collor","audio":[{"name":"Eu repudio","file":"eu-repudio.mp3"},{"name":"Mentira da Receita Federal","file":"mentira-da-receita-federal.mp3"},{"name":"Isso é uma mentira","file":"isso-e-uma-mentira.mp3"},{"name":"São palavras que quero que as engula","file":"sao-palavras-que-quero-que-as-engula.mp3"},{"name":"Sonho de uma noite de verão","file":"sonho-de-uma-noite-de-verao.mp3"}]},{"name":"Dilma","slug":"dilma","audio":[{"name":"Bessias","file":"bessias.mp3"},{"name":"Bom dia ou boa tarde","file":"bom-dia-ou-boa-tarde.mp3"},{"name":"Dobrar a meta","file":"dobrar-a-meta.mp3"},{"name":"Engasguei comigo mesma","file":"engasguei-comigo-mesma.mp3"},{"name":"Estocar vento","file":"estocar-vento.mp3"},{"name":"Eu podia","file":"eu-podia.mp3"},{"name":"Figura oculta que é um cachorro atrás","file":"figura-oculta.mp3"},{"name":"Happy Birthday","file":"happy-birthday.mp3"},{"name":"Índios morriam por falta de assistência técnica","file":"indios-morriam-por-falta-de-assistencia-tecnica.mp3"},{"name":"Melhor prefeito das galáxias","file":"melhor-prefeito-das-galaxias.mp3"},{"name":"Mulheres Sapiens","file":"mulheres-sapiens.mp3"},{"name":"No que se refere","file":"no-que-se-refere.mp3"},{"name":"O meio ambiente é uma ameaça","file":"o-meio-ambiente-e-uma-ameaca.mp3"},{"name":"Quem ganhar ou perder","file":"quem-ganhar-ou-perder.mp3"},{"name":"Saudando a mandioca","file":"saudando-a-mandioca.mp3"}]},{"name":"Eduardo Cunha","slug":"eduardo-cunha","audio":[{"name":"Como vota deputado?","file":"como-vota-deputado.mp3"},{"name":"Que Deus tenha misericórdia dessa nação","file":"que-deus-tenha-misericordia.mp3"}]},{"name":"Eduardo Paes","slug":"eduardo-paes","audio":[{"name":"Faz muito sexo aqui, Rita","file":"faz-muito-sexo-aqui-rita.mp3"},{"name":"Maricá","file":"marica.mp3"},{"name":"Vai trepar muito nesse quartinho aqui","file":"vai-trepar-muito-nesse-quartinho-aqui.mp3"}]},{"name":"Enéas","slug":"eneas","audio":[{"name":"Falando inglês","file":"falando-ingles.mp3"},{"name":"Meu nome é Enéas","file":"meu-nome-e-eneas.mp3"}]},{"name":"Eymael","slug":"eymael","audio":[{"name":"Ey-ey-ey-mael","file":"ey-ey-ey-mael.mp3"}]},{"name":"Heráclito Fortes","slug":"heraclito-fortes","audio":[{"name":"Inveja? Eu não sou corno","file":"inveja-eu-nao-sou-corno.mp3"}]},{"name":"Jandira Feghali","slug":"jandira-feghali","audio":[{"name":"Tentou ajudar o candidato","file":"tentou-ajudar-o-candidato.mp3"}]},{"name":"Jean Wyllys","slug":"jean-wyllys","audio":[{"name":"Ele me chamou de cu ambulante","file":"ele-me-chamou-de-cu-ambulante.mp3"}]},{"name":"Joaquim Barbosa","slug":"joaquim-barbosa","audio":[{"name":"Capangas do Mato Grosso","file":"capangas-do-mato-grosso.mp3"}]},{"name":"José Serra","slug":"jose-serra","audio":[{"name":"Come todo mundo","file":"come-todo-mundo.mp3"}]},{"name":"Kassab","slug":"kassab","audio":[{"name":"Vagabundo","file":"vagabundo.mp3"}]},{"name":"Levy Fidelix","slug":"levy-fidelix","audio":[{"name":"Aparelho excretor não reproduz","file":"aparelho-excretor-nao-reproduz.mp3"},{"name":"Dois iguais não fazem filho","file":"dois-iguais-nao-fazem-filho.mp3"}]},{"name":"Lula","slug":"lula","audio":[{"name":"Acusado de suicídio","file":"acusado-de-suicidio.mp3"},{"name":"Grelo duro","file":"grelo-duro.mp3"},{"name":"Pelotas é exportadora de viado","file":"pelotas-exportadora-de-viado.mp3"},{"name":"Tchau querida","file":"tchau-querida.mp3"},{"name":"Viva alma mais honesta do que eu","file":"viva-alma-mais-honesta-do-que-eu.mp3"}]},{"name":"Maria do Rosário","slug":"maria-do-rosario","audio":[{"name":"Mas o que é isso?","file":"mas-o-que-e-isso.mp3"}]},{"name":"Marta Suplicy","slug":"marta-suplicy","audio":[{"name":"Relaxa e goza","file":"relaxa-e-goza.mp3"}]},{"name":"Orestes Quércia","slug":"orestes-quercia","audio":[{"name":"Caluniador e mentiroso","file":"caluniador-e-mentiroso.mp3"}]},{"name":"Paulo Maluf","slug":"paulo-maluf","audio":[{"name":"Estupra mas não mata","file":"estupra-mas-nao-mata.mp3"},{"name":"Se corrupção existe, é da senhora sua mãe","file":"corrupcao-sua-mae.mp3"},{"name":"Se o Pitta não for um grande prefeito, nunca mais vote em mim","file":"pitta-grande-prefeito.mp3"},{"name":"Tinha rota na rua","file":"tinha-rota-na-rua.mp3"}]},{"name":"Sérgio Cabral","slug":"sergio-cabral","audio":[{"name":"Falando inglês","file":"falando-ingles.mp3"}]},{"name":"Temer","slug":"temer","audio":[{"name":"Acreditamos no poder do diabo","file":"acreditamos-no-poder-do-diabo.mp3"},{"name":"Não renunciarei","file":"nao-renunciarei.mp3"},{"name":"Voz do demônio","file":"voz-do-demonio.mp3"}]},{"name":"Wladimir Costa","slug":"wladimir-costa","audio":[{"name":"Minha mãe negra Lucimar","file":"minha-mae-negra-lucimar.mp3"}]}]
+
+/***/ })
+
+},[197]);
+//# sourceMappingURL=main.js.map
